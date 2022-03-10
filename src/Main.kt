@@ -8,23 +8,24 @@
 //Write a function that takes in a string and returns its length(2 points)
 fun main(){
     word("CodeHive")
-    statement( "Ahimbisibwe prudence",24)
-    sentence("Akirachix")
-
+     statement( "Ahimbisibwe prudence","24")
+    count()
 
 }
 fun word(text:String){
     val x = text[4].toString() + text[5] + text[6] + text[7]
     println(x)
 }
-fun statement(name:String,age:Int):String{
+fun statement(name:String,age:String){
     val z = "Hi, my name is $name and I am $age years old."
-    println(z)}
-fun sentence(word:String):Int{
-    val s = word.length
-    println(s)
-
+    println(z)
 }
+fun count() {
+    val t = "prudence"
+    println(t.length)
+}
+
+
 
 
 
