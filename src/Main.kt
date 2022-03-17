@@ -8,14 +8,20 @@
 //Write a function that takes in a string and returns its length(2 points)
 fun main(){
     word("CodeHive")
+    val x =modulus(30,7)
+    println(x)
      statement( "Ahimbisibwe prudence","24")
     count()
 
 }
 fun word(text:String){
     val x = text[4].toString() + text[5] + text[6] + text[7]
-    println(x)
+    println(x)}
+fun modulus(num1:Int,num2:Int):Int{
+    val remainder = num1%num2
+    return remainder
 }
+
 fun statement(name:String,age:String){
     val z = "Hi, my name is $name and I am $age years old."
     println(z)
